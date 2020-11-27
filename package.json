@@ -1,0 +1,19 @@
+{
+  "name": "nlayer",
+  "version": "1.0.0",
+  "description": "NLayer is a fully managed MP3 to WAV decoder. The code was originally based  on [JavaLayer](http://www.javazoom.net/javalayer/javalayer.html) (v1.0.1),  which has been ported to C#.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naudio/NLayer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naudio/NLayer/issues"
+  },
+  "homepage": "https://github.com/naudio/NLayer#readme"
+}

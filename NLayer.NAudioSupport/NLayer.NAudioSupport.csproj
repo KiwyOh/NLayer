@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>Mark Heath</Authors>
+    <Version>1.1.0</Version>
+    <PackageLicenseUrl>https://github.com/naudio/NLayer/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/naudio/NLayer</PackageProjectUrl>
+    <Description>NAudio support for NLayer</Description>
+    <PackageTags>NAudio NLayer MP3 audio</PackageTags>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="NAudio" Version="1.9.0" />
+    <PackageReference Include="NLayer" Version="1.12.0" />
+  </ItemGroup>
+</Project>
